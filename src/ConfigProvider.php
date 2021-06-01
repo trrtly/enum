@@ -23,6 +23,9 @@ class ConfigProvider
                     'paths' => [
                         __DIR__,
                     ],
+                    'collectors' => [
+                        EnumCollector::class,
+                    ],
                 ],
             ],
         ];
